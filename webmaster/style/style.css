@@ -1,0 +1,161 @@
+@charset "utf-8";
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin: 0px;
+	height:100%;
+}
+
+html{height:100%;}
+
+.tn1 {
+	color: #FFFFFF;
+	background-image: url(../images/g1.jpg);
+	background-position: center center;
+	border-bottom:solid 1px #ffffff;
+	font-weight:bold;
+}
+.tn1 a {
+	color: #000000;
+	text-decoration:none;
+}
+.tn1 a:hover {
+	color: #FFFF66;
+	text-decoration:underline;
+}
+.tn1 .selected {
+	color: #FFFF66;
+	text-decoration:underline;
+}
+
+
+
+#tab1{
+	color:#000000;
+	height: 26px;
+}
+#tab1 ul{ padding:0; margin:0; list-style:none;}
+#tab1 li{ float:left;}
+#tab1 li a {
+	display:block;
+	color:#000000;
+	padding:5px;
+	border-right: solid 1px #FFFFFF;
+	text-decoration:none;
+	font-weight:bold;
+}
+#tab1 li a:hover {
+	background-image: url(../images/g2.jpg);
+}
+.selected {
+	background-image: url(../images/g2.jpg);
+}
+
+
+h2 {
+	font-size: 20px;
+	font-weight: normal;
+	color: #A06247;
+	margin: 0px;
+}
+
+
+.tn2 {
+	color: #FFFFFF;
+	background-image:url(../images/g4.jpg);
+	border-bottom:solid 1px #ffffff;
+	font-weight:bold;
+}
+.tn2 a {
+	color: #CCCCCC;
+	text-decoration:none;
+}
+.tn2 a:hover {
+	color: #CCCCCC;
+	text-decoration:underline;
+}
+
+
+
+.left_line {
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #CCCCCC;
+}
+
+.link1{
+	color: #643233;
+}
+.std{
+	color: #000000;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.link1 a {
+	color: #643233;
+}
+.link1 a:hover {
+	color: #A1C724;
+	text-decoration:none
+}
+.link1 ul { margin:0; padding:0; list-style:none;}
+.link1 li {  margin-bottom:5px; padding: 2px 2px 2px 10px; }
+.link1 li a { display:block; }
+.link1 li a:hover { background:#F3F3F3;}
+
+
+
+
+th {
+	background-image: url(../images/g5.jpg);
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.bgg1{
+	background-color: #F7FDDF;
+}
+.bgg2{
+	background-color: #FFFFFF;
+}
+.bgg3{
+	background-color: #f4f4f3;
+}
+.button1 {
+	color: #000000;
+	background-image: url(../images/g2.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+	border: 1px solid #A2C72A;
+}
+
+.mtw {
+	height: 100%;
+	width: 100%;
+}
+.footer {
+	background-image: url(../images/footer.jpg);
+	background-repeat: repeat-x;
+}
+.inputbox{color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+padding:3px;
+}
+.formErrors {
+  background: #CC0000;
+  color: white;
+  padding:5px;
+  width:auto;
+}
+.brd{
+color:#CC0000;
+border:dashed 1px;
+}
+.brd2{
+color:#000000;
+border:solid 1px;
+}
