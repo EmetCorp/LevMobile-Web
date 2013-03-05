@@ -1,0 +1,82 @@
+body{ margin:0; padding:0; background:#102530 url(../images/bg.jpg) repeat-x; font-size:12px; font-family: 'MyriadProRegular';}
+@font-face {
+	font-family: 'MyriadProRegular';
+	src: url('../fonts/myriadpro-regular-webfont.eot');
+	src: local('?'), 
+	url('../fonts/myriadpro-regular-webfont.woff') format('woff'), 
+	url('../fonts/myriadpro-regular-webfont.ttf') format('truetype'), 
+	url('../fonts/myriadpro-regular-webfont.svg#webfontlmgo2yxa') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'elephnt';
+    src: url('elephnt.eot');
+    src: url('elephnt.eot?#iefix') format('embedded-opentype'),
+         url('elephnt.woff') format('woff'),
+         url('elephnt.ttf') format('truetype'),
+         url('elephnt.svg#elephnt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cambria';
+    src: url('cambria.eot');
+    src: url('cambria.eot?#iefix') format('embedded-opentype'),
+         url('cambria.woff') format('woff'),
+         url('cambria.ttf') format('truetype'),
+         url('cambria.svg#cambria') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+img{ border:none; outline:none;}
+input{ outline:none;}
+a, a:link{text-decoration:none; color:#2279E5;}
+.cl{ clear:both; font-size:0;}
+.wrapper{ margin:0 auto; padding:0; width:970px; }
+.header{ margin:0; padding:18px 0px;}
+.logo{ float:left; margin:0; padding:0;}
+.header_right{float:right;}
+a.active, .header_right li a:hover{background:#2279e5; font-size: 14px; font-weight: normal; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; text-shadow:0 -1px #000; box-shadow:0 1px 4px #000;}
+.content{background:#fff; border-radius:12px; -moz-border-radius:12px; -webkit-border-radius:12px; margin:0 0 25px; overflow:hidden; position:relative; behavior: url(pie.htc);}
+.topbanner{margin:0; padding:20px 20px 0; background:url(../images/flower.png) no-repeat right top; min-height:380px;}
+.leftimg{ float:left; margin:0 30px 0 0;  width:475px; }
+.rightifo{ float:left; margin:0; padding:0; width:420px; }
+.rightifo h1{color:#2279e5; font:bold 40px elephnt; margin:0;}
+.rightifo p{ color:#2279e5; font-family:Arial, Helvetica, sans-serif; font-size:16px; margin:14px 0; padding:0;}
+.form{ background:url(../images/inputbox.png) no-repeat; width:418px; height:39px; margin:20px 0 0; padding:0;}
+.inputbox{ background: none repeat scroll 0 0 transparent;    border: medium none;    font-size: 17px;    margin: 4px;    padding: 5px;    width: 350px;font-family: 'MyriadProRegular';}
+.sbtn{font-size:17px; color:#fff; text-shadow:1px 1px #000; box-shadow:0 1px 2px #373737; background:#135e84; border:none; padding:3px 5px; border-radius:7px; -webkit-border-radius:7px; -moz-border-radius:7px; -o-border-radius:7px; -ms-border-radius:7px; cursor:hand; cursor:pointer;}
+.footer_outer{ background:url(../images/dotted-line.png) repeat-x top left; padding:6px 0; margin:0;}
+.footer{ width:970px; margin:0 auto; padding:0; }
+.footer p{ text-align:left; color:#6c6c6c; font-size:14px;  }
+
+
+/* Easy Slider */
+.slider_outer{background:url(../images/slider_bg.jpg) repeat-x #ebebeb; position:relative;padding:15px; border-radius:0px 0px 12px 12px;  behavior: url(pie.htc);}
+#slider {  margin:0 auto; }
+#slider ul, #slider li,#slider2 ul, #slider2 li{margin:0;padding:0;list-style:none;}
+#slider li .imagebox{ float:left; margin:5px 20px 0 0;}
+#slider li .imagebox img{ border:1px solid #424242; border-radius:6px;}
+#slider li p{ float:left; width:580px; font-size:29px; color:#004366; font-family:cambria; /*text-shadow: 1px 1px 0 #DDDDDD, 2px 2px 0 #BBBBBB;*/}
+#slider li{ width:800px; height:140px;overflow:hidden; }	
+#prevBtn, #nextBtn,
+#slider1next, #slider1prev{ display:block;width:30px;height:54px;position:absolute;left:40px;top:56px;z-index:1000;}	
+#nextBtn, #slider1next{ left:895px;}														
+#prevBtn a, #nextBtn a,
+#slider1next a, #slider1prev a{  display:block;position:relative;width:30px;height:54px;background:url(../images/arrow.png) no-repeat 0 0;	}	
+#nextBtn a, #slider1next a{ background:url(../images/arrow.png) no-repeat -28px 0;	}	
+.graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next {    text-indent: -8000px;}	
+/* // Easy Slider */
+
+/*Edited by Jitendra Mehta*/
+.social-icons{width:100%; float:right; margin-top:22px;}
+.social-icons span{display:inline-block; margin-left:5px; color:#82888b; float:left; line-height:26px; float:right;}
+.social-icons img{float:left; margin-right:5px;}
+.header_right ul{list-style-type:none; margin:0px; padding:0; margin-top:22px; float:right;}
+.header_right li{float:left; margin-left:15px;}
+.header_right li a{padding:5px 13px; display:inline-block; font-size:14px; color:#fff;}
+.app-store{margin:20px 0; display:inline-block;}
